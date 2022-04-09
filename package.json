@@ -1,0 +1,33 @@
+{
+  "name": "webrtc-pra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goccult/webrtc-pra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goccult/webrtc-pra/issues"
+  },
+  "homepage": "https://github.com/goccult/webrtc-pra#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "babel-loader": "^8.2.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "webpack": "^5.72.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "webpack-cli": "^4.9.2"
+  }
+}
